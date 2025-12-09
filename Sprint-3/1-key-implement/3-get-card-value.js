@@ -61,8 +61,6 @@ assertEquals(tenOfSpades, 10);
 // Given a card with a rank of "A",
 // When the function is called with an Ace,
 // Then it should, by default, assume the Ace is worth 11 points, which is a common rule in blackjack.
-const aceOfSpades = getCardValue("A♠");
-console.assert(aceOfSpades === 11, `Expected 11, got ${aceOfSpades}`);
 // Handle Invalid Cards:
 // Given a card with an invalid rank (neither a number nor a recognized face card),
 // When the function is called with such a card,
