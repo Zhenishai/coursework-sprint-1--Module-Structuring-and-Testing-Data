@@ -20,3 +20,10 @@ console.log(`The percentage change is ${percentageChange}`);
 // d) Identify all the lines that are variable declarations
 
 // e) Describe what the expression Number(carPrice.replaceAll(",","")) is doing - what is the purpose of this expression?
+ 
+//Answers
+
+//a) There are 5 function calls (not counting the syntax error)
+//b,c) An error is on the line 5-There is a missing comma between the arguments of replaceAll.
+//d) A variable reassignment is when we assign a new value to an existing variable. There are lines 4,5.
+//e)the porpuse of th expression Number is to turn a formatted string with commas into a proper numeric value so you can do arithmetic.
